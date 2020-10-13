@@ -24,5 +24,7 @@ hs_err_pid*
 
 .DS_Store
 .idea
+*.iml
 
 target
+
