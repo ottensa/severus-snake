@@ -1,5 +1,5 @@
 # Severus Snake - A Talend Component for Python
-<p align="center"><b>Disclaimer:</b> This component is not an official contribution from Talend</p>
+**Disclaimer:** This component is not an official contribution from Talend
 
 ## Overview
 This projects aims to provide a component for Talend Studio that let's you use Python as part of your Talend Jobs.
