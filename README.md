@@ -1,4 +1,6 @@
 # Severus Snake - A Talend Component for Python
+<p align="center"><b>Disclaimer:</b> This component is not an official contribution from Talend</p>
+
 ## Overview
 This projects aims to provide a component for Talend Studio that let's you use Python as part of your Talend Jobs.
 Python is among the most popular programming languages, especially when it comes to data science, AI/ML and so on.
@@ -8,8 +10,6 @@ As there is currently no Talend Studio Component for Python I created my own usi
 You will find many libraries searching for Java and Python integration and the most well-known is probably Jython, but this has the disadvantage that you can't use Python libraries like numpy that are written in CPython. For this component I wanted to be able to use my favorite Python libraries as I would in a pure Python environment. During my research I came across [JEP](https://github.com/ninia/jep) which solves that problem and let me use the full power of Python like object detection for example. The image below shows object detection done by a Talend Job using this component.
 
 ![](./doc/img/detection.png)
-
-**Disclaimer:** This component is not an official contribution from Talend 
 
 ## Requirements
 In order to use this component you need to provide to requirements:
