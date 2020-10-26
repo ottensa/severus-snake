@@ -39,7 +39,7 @@ mvn clean package talend-component:deploy-in-studio -Dtalend.component.studioHom
 ```
 
 ### Release
-Alternatively you can download a release from here and then execute the car file to install the component into your Studio installation:
+Alternatively you can download a release from [here](https://github.com/ottensa/severus-snake/releases) and then execute the car file to install the component into your Studio installation:
 
 ```bash
 java -jar severus-snake-0.0.1.car studio-deploy /path/to/talend/studio
