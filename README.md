@@ -29,12 +29,20 @@ This library is the connection between Java and Python. For this connection to w
 **IMPORTANT:** If you want to use multiple Python installations, every Python installation will need this library!
 
 ## Installation
-To install this component first check it out and then run the Maven goal to install the component into your Studio installation:
+### From Source
+To install this component from source, first check it out and then run the Maven goal to install the component into your Studio installation:
 
 ```bash
 git clone https://github.com/ottensa/severus-snake
 cd severus-snake
 mvn clean package talend-component:deploy-in-studio -Dtalend.component.studioHome="/path/to/talend/studio"
+```
+
+### Release
+Alternatively you can download a release from here and then execute the car file to install the component into your Studio installation:
+
+```bash
+java -jar severus-snake-0.0.1.car studio-deploy /path/to/talend/studio
 ```
 
 ## Usage
